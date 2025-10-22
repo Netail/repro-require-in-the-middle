@@ -1,0 +1,35 @@
+{
+  "name": "repro-require-in-the-middle",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.18.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/context-async-hooks": "^2.2.0",
+    "@opentelemetry/core": "^2.2.0",
+    "@opentelemetry/exporter-prometheus": "0.207.0",
+    "@opentelemetry/exporter-trace-otlp-grpc": "0.207.0",
+    "@opentelemetry/host-metrics": "0.36.2",
+    "@opentelemetry/instrumentation": "^0.207.0",
+    "@opentelemetry/instrumentation-http": "0.207.0",
+    "@opentelemetry/instrumentation-runtime-node": "0.21.0",
+    "@opentelemetry/resources": "2.2.0",
+    "@opentelemetry/sdk-metrics": "2.2.0",
+    "@opentelemetry/sdk-trace-node": "2.2.0",
+    "@opentelemetry/semantic-conventions": "1.37.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.6"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  }
+}
